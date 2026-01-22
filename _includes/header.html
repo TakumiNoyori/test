@@ -11,11 +11,10 @@
     </div>
     <nav class="globalNavi">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="research.php">Research</a></li>
-            <li><a href="members.php">Members</a></li>
-            <li><a href="publications.php">Publications</a></li>
-            <li><a href="access.php">Access</a></li>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/members' | relative_url }}">Members</a></li>
+            <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+            <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
         </ul>
     </nav>
 </header>
