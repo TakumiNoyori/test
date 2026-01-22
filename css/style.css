@@ -42,11 +42,12 @@ figcaption {
 #page {
     width: 980px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #ffc5c5;
 }
 
 /* ページヘッダー */
 #pageHead {
+    width: 100%; 
     padding: 5px 0px 5px 0px;
     position: fixed; /* 親要素に対して位置を固定 */
     background-color: #ffffff; /* スクロール時に透過しないように */
