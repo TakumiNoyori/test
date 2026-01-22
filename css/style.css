@@ -337,6 +337,24 @@ figcaption {
     }
 }
 
+/* Member page */
+.memberProfile {
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.memberPhoto {
+    border-radius: 50%; /* 円形にする */
+    border: 2px solid #08a000; /* 好みで枠線追加 */
+}
+
+.memberInfo {
+    margin-left: 15px;
+}
+
 /* Publication page */
 .publication {
     line-height: 1.5;
