@@ -50,11 +50,16 @@ figcaption {
     padding: 5px 0px 5px 0px;
     position: fixed; /* 親要素に対して位置を固定 */
     background-color: #ffffff; /* スクロール時に透過しないように */
-    display: flex;
-    justify-content: space-between;  /* 左右に配置 */
-    align-items: flex-end;             /* 下部揃え */
     border-bottom: 1px solid #cccccc;
     z-index: 9999; /* 最前面に */
+}
+
+#pageHead .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 #pageHead #header {

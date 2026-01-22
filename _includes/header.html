@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <header id="pageHead">
-    <div id="header">
-        <div>
-            <img src="image/logo.png" height="50px">
+    <div class="inner">
+        <div id="header">
+            <div>
+                <img src="image/logo.png" height="50px">
+            </div>
+            <div>
+                <p id="siteTitle">Inagaki Lab</p>
+                <p id="catchcopy">The University of Tokyo</p>
+            </div>
         </div>
-        <div>
-            <p id="siteTitle">Inagaki Lab</p>
-            <p id="catchcopy">The University of Tokyo</p>
-        </div>
+        <nav class="globalNavi">
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/members' | relative_url }}">Members</a></li>
+                <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/access' | relative_url }}">Access</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav class="globalNavi">
-        <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/members' | relative_url }}">Members</a></li>
-            <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-            <li><a href="{{ '/access' | relative_url }}">Access</a></li>
-        </ul>
-    </nav>
 </header>
