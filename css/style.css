@@ -340,15 +340,13 @@ figcaption {
 /* Member page */
 .memberList {
     display: flex;
-    flex-wrap: wrap; /* 複数行に折り返す */
-    justify-content: flex-start; /* 左寄せ */
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .memberProfile {
-    width: 300px;
-    margin: 20px;
-    align-items: center;
-    margin-bottom: 20px;
+    flex: 1 1 300px;
+    max-width: 320px;
 }
 
 .memberPhoto {
