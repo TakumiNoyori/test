@@ -338,10 +338,15 @@ figcaption {
 }
 
 /* Member page */
+.memberList {
+    display: flex;
+    flex-wrap: wrap; /* 複数行に折り返す */
+    justify-content: flex-start; /* 左寄せ */
+}
+
 .memberProfile {
     width: 250px;
     margin: 20px;
-    display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -353,7 +358,24 @@ figcaption {
 
 .memberInfo {
     margin-left: 15px;
+    .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .position {
+        font-size: 14px;
+        color: #666666;
+        margin-top: 5px;
+    }
+    .email {
+        font-size: 14px;
+        color: #0066cc;
+        margin-top: 5px;
+    }
 }
+
+
 
 /* Publication page */
 .publication {
