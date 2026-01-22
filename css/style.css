@@ -345,13 +345,15 @@ figcaption {
 }
 
 .memberProfile {
-    width: 250px;
+    width: 300px;
     margin: 20px;
     align-items: center;
     margin-bottom: 20px;
 }
 
 .memberPhoto {
+    width: 250px;
+    height: 250px;
     border-radius: 50%; /* 円形にする */
     border: 2px solid #08a000; /* 好みで枠線追加 */
 }
@@ -359,17 +361,17 @@ figcaption {
 .memberInfo {
     margin-left: 15px;
     .name {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
         margin-top: 10px;
     }
     .position {
-        font-size: 14px;
+        font-size: 16px;
         color: #666666;
         margin-top: 5px;
     }
     .email {
-        font-size: 14px;
+        font-size: 16px;
         color: #0066cc;
         margin-top: 5px;
     }
