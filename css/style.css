@@ -21,6 +21,10 @@ ul {
     padding: 0px;
 }
 
+p {
+    text-align: justify;
+}
+
 /* リンク */
 a {
     color: #999966;
@@ -331,8 +335,8 @@ figcaption {
     }
 
     & .researchContentText {
-    width: 800px;
-    padding-right: 20px;
+    /*width: 800px;*/
+    /*padding-right: 20px;*/
     text-align: justify;
     }
 }
