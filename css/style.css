@@ -339,12 +339,14 @@ figcaption {
 
 /* Member page */
 .memberList {
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
 
 .memberProfile {
+    margin: 0 auto;
     flex: 1 1 300px;
     max-width: 320px;
 }
