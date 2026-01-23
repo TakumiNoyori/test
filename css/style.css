@@ -345,6 +345,7 @@ figcaption {
 }
 
 .memberProfile {
+    margin: 15px 0px;
     flex: 1 1 300px;
     max-width: 320px;
 }
