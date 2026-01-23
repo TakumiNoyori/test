@@ -318,7 +318,7 @@ figcaption {
 }
 
 .researchContent {
-    display: flex;
+    /*display: flex;*/
     padding-bottom: 50px;
 
     & h3 {
