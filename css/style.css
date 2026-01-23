@@ -346,12 +346,12 @@ figcaption {
 }
 
 .memberProfile {
-    margin: 0 auto;
     flex: 1 1 300px;
     max-width: 320px;
 }
 
 .memberPhoto {
+    margin: 0 auto;
     width: 250px;
     height: 250px;
     border-radius: 50%; /* 円形にする */
