@@ -138,9 +138,6 @@ figcaption {
 
 /* main */
 main {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
     background-color: #e6f5e6;
 }
 
@@ -148,7 +145,10 @@ main {
 #pageBody {
     width: 980px;
     padding-top: 74px; /*headerを固定するため*/
-    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #f6f6f6;
 }
 
