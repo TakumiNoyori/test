@@ -137,13 +137,17 @@ figcaption {
     line-height: 1.5;
 }
 
+/* main */
+#main {
+    background-color: #e6f5e6;
+}
+
 /*ページボディ*/
 #pageBody {
     width: 980px;
     padding-top: 74px; /*headerを固定するため*/
     margin: 0 auto;
-    /*background-color: #ffcc66;
-    border: solid 10px #ff0000;*/
+    background-color: #f6f6f6;
 }
 
 .pageBodyHead {
