@@ -129,7 +129,6 @@ figcaption {
 /*ページフッター*/
 #pageFoot {
     border-top: solid 1px #cccccc;
-    margin-top: 15px;
 }
 
 #pageFoot #copyright {
@@ -139,6 +138,9 @@ figcaption {
 
 /* main */
 main {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #e6f5e6;
 }
 
