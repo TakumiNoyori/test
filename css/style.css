@@ -142,6 +142,7 @@ figcaption {
 
 #pageFoot #pageFootInner #pageFootContent {
     display: flex;
+    border-bottom: 1px solid #ededed;
 }
 
 
@@ -153,6 +154,7 @@ figcaption {
 /* main */
 main {
     background-color: #ffffff;
+    padding-bottom: 40px;
 }
 
 /*ページボディ*/
