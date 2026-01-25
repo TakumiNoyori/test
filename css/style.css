@@ -128,7 +128,15 @@ figcaption {
 
 /*ページフッター*/
 #pageFoot {
+    width: 100%; 
+    color: #ffffff;
+    background-color: #5f5f5f;
     border-top: solid 1px #cccccc;
+}
+
+#pageFoot #pageFootInner {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #pageFoot #copyright {
